@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C59B2BF2292C8060038F609 /* InMobi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59B2BD2292C8060038F609 /* InMobi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C59B2D12292C82D0038F609 /* InMobiSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C59B2C52292C82C0038F609 /* InMobiSDK */; };
 		2C59B2D22292C82D0038F609 /* IMNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59B2C72292C82D0038F609 /* IMNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C59B2D32292C82D0038F609 /* IMNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59B2C82292C82D0038F609 /* IMNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C59B2D42292C82D0038F609 /* IMSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C59B2C92292C82D0038F609 /* IMSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,7 +24,6 @@
 		2C59B2BA2292C8060038F609 /* InMobi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InMobi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C59B2BD2292C8060038F609 /* InMobi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InMobi.h; sourceTree = "<group>"; };
 		2C59B2BE2292C8060038F609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C59B2C52292C82C0038F609 /* InMobiSDK */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = InMobiSDK; sourceTree = "<group>"; };
 		2C59B2C72292C82D0038F609 /* IMNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNativeDelegate.h; sourceTree = "<group>"; };
 		2C59B2C82292C82D0038F609 /* IMNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMNative.h; sourceTree = "<group>"; };
 		2C59B2C92292C82D0038F609 /* IMSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSdk.h; sourceTree = "<group>"; };
@@ -43,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C59B2D12292C82D0038F609 /* InMobiSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				2C59B2C62292C82D0038F609 /* Headers */,
-				2C59B2C52292C82C0038F609 /* InMobiSDK */,
 				2C59B2BD2292C8060038F609 /* InMobi.h */,
 				2C59B2BE2292C8060038F609 /* Info.plist */,
 			);
